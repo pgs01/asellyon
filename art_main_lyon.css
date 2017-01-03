@@ -1,0 +1,1427 @@
+﻿div, ul, li, ol, a, table, thead, tr, th, tbody, td, tfoot, p, dl, dt, dd, span, h1, h2, h3, h4, h5, h6, q, form {
+    font-size:12px;
+    font-style:normal;
+    font-weight:normal;
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    clear:none;
+    text-align:left;
+    text-indent:0px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+img {
+    border:0;
+}
+
+body{
+    background-image:url(image/background.jpg);
+    background-position:top center;
+    text-align: center;
+}
+
+#center{
+    margin:auto;
+    background:#fff;
+    width:780px;
+}
+
+/*------------------*/
+/*--------Top-------*/
+/*------------------*/
+
+/*-----Logo----*/
+
+#site-visuel {
+    display:inline;
+}
+
+#site-visuel img{
+    margin:0 5px;
+    vertical-align:top;
+    display:inline;
+}
+
+.logo{
+    margin-right:70px;
+	vertical-align:top;
+}
+a.logo img {
+    width:150px;
+}
+
+/*-----Slogans-----*/
+
+.slogan
+{
+	font-size:10px;
+    width:500px;
+    color:#BD865F;
+    /*font-size:75%;*/
+    font-weight:bolder;
+    text-transform:uppercase;
+    text-align:center;
+    margin-left:250px;
+
+}
+
+.separation-slogan{
+    font-weight:bolder;
+    margin-left:100px;
+
+}
+
+/*-----Compte-----*/
+
+#table-site-visuel {
+    margin-left:50px;
+    display:inline;
+    text-align:center;
+}
+
+#table-site-visuel tr{
+    height:145px;
+}
+
+#table-site-visuel td.commande-apercu{
+    width:195px;
+    background:url(/images/site/boutons/bouton_panier.png) no-repeat;
+    background-position: center ;
+    color:#fff;
+    padding-left:5px;
+}
+
+.commande-apercu li{
+    color:#fff;
+    margin-top:5px;
+}
+
+.commande-apercu li a:link,.commande-apercu li a:visited, .commande-apercu li a:active {
+    text-align:center;
+    color:#fff;
+    text-decoration:none;
+}
+
+.commande-apercu li a:hover {
+    text-decoration:underline;
+}
+
+p.fonctions-du-compte, p.fonctions-du-compte-log {
+    display:inline ;
+    vertical-align:middle ;
+}
+
+.fonctions-du-compte-log{
+    width:290px;
+    height:90px;
+}
+
+.fonctions-du-compte-log{
+    background:url(/images/site/boutons/bouton_espace_perso.png) no-repeat ;
+    background-position: center ;
+}
+
+.fonctions-du-compte-log ul{
+    margin-left:150px;
+    color:#fff;
+}
+
+.fonctions-du-compte-log li{
+    list-style-image:url(image/puce_orange.gif);
+    margin-bottom:5px;
+}
+
+.fonctions-du-compte-log a:link, .fonctions-du-compte-log a:visited, .fonctions-du-compte-log a:active{
+    color:#fff;
+    text-decoration:none;
+}
+
+.fonctions-du-compte-log a:hover{
+    color:#fff;
+    text-decoration:underline;
+}
+
+/*------------------*/
+
+/*----------------------------*/
+/*-------Navigation top-------*/
+/*----------------------------*/
+
+
+
+#table-fonction a:link, #table-fonction a:visited, #table-fonction a:active{
+    color:#fff;
+}
+
+#navigation-top{
+    background:url(/images/m12.gif) no-repeat;
+    height:55px;
+}
+
+#navigation-top .fonction-recherche {
+    padding-left:15px;
+    padding-right:17px;
+}
+
+#navigation-top .champ-recherche{
+    width:100px;
+}
+
+#navigation-top .bouton-recherche{
+    margin-left:5px;
+    text-align:center;
+    width:50px;
+}
+
+.recherche-nulle{
+    text-align:center;
+}
+
+/*-----Recherche avancée lien-----*/
+
+#navigation-top .recherche-avancee{
+    padding-top:5px;
+}
+
+.recherche-avancee2 img{
+    margin-right:2px;
+}
+
+.recherche-avancee2 a{
+    text-decoration:none;
+}
+
+.recherche-avancee2 a:hover{
+    text-decoration:underline;
+}
+
+/*-----Recherche avancée-----*/
+
+.recherche-avancee2{
+    margin:0 0 15px 10px;
+    text-align:center;
+}
+
+.recherche-avancee2 td{
+	vertical-align:top;
+	width:170px;
+}
+
+
+.text-recherche-avancee2{
+	width:20px;
+}
+
+.rech-avancee td p{
+	padding-left:140px;
+}
+
+#recherche-avancee-form ul{
+    padding-left:100px;
+}
+
+.avancee{
+    margin:0 20px 5px 10px;
+}
+
+
+/*-----Onglets-----*/
+
+#boutique-selected {
+    vertical-align:top;
+}
+
+#boutique-unselected{
+    vertical-align:top;
+}
+
+#actus-selected, #promos-selected, #contact-selected, #faq-selected, #informations-selected{
+    vertical-align:top;
+}
+
+#actus-unselected, #promos-unselected, #contact-unselected, #faq-unselected, #informations-unselected{
+    vertical-align:top;
+}
+
+
+/*----------------------------*/
+
+/*----------Navigation left----------*/
+
+#nav-sub,#nav-sub-compte {
+    float:left;
+    width:180px;
+    list-style:url(image/puce_orange.gif);
+}
+
+#besoins-nav,#selections-nav,#famille-nav,#top-ventes-nav,#infos-site-nav{
+    background:#F2F2F2;
+}
+
+#nav-sub h3 {
+    border:solid 1px #aaa;
+    display:block;
+    height:17px;
+    border-bottom:0;
+    margin-top:5px;
+    background:url(image/barre_orange.gif) repeat-x;
+    color:#fff;
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:bold;
+    padding-top:3px;
+    vertical-align:middle;
+}
+
+#nav-sub-compte h3 {
+    border:solid 1px #aaa;
+    border-bottom:0;
+    display:block;
+    height:17px;
+    background:url(/images/barre_verte.gif) repeat-x;
+    color:#fff;
+    text-align:center;
+    vertical-align:middle;
+    text-transform:uppercase;
+    font-weight:bold;
+    margin-top:10px;
+    padding-top:3px;
+
+}
+
+#top-ventes-nav{
+    border:solid 1px #aaa;
+    border-top:0;
+}
+
+#nav-sub ul, #nav-sub-compte ul {
+    border:solid 1px #aaa;
+    color:#fff;
+    text-align:center;
+}
+
+#nav-sub li, #nav-sub-compte li{
+    color:#555;
+    margin:5px 0 5px 20px;
+    list-style-image:url(image/puce_orange.gif);
+}
+
+.top-ventes{
+    color:#000;
+    margin:5px 0 0 5px;
+}
+
+.top-ventes td{
+    padding-bottom:10px;
+}
+
+#nav-sub a:link, a:visited, a:active{
+    color:#777;
+    text-decoration:none;
+}
+
+#nav-sub-compte a:link, a:visited, a:active{
+    color:#777;
+    text-decoration:none;
+}
+
+#nav-sub a:hover, #nav-sub-compte a:hover{
+    color:#DA6A1B;
+    text-decoration:underline;
+}
+
+/*-------------------------*/
+/*----------Content--------*/
+/*-------------------------*/
+
+#contenu, #contenu-compte {
+    float:left;
+    width:580px;
+    margin-left:5px;
+    margin-bottom:15px;
+    padding-top:5px;
+}
+
+
+
+#contenu h2 {
+    border-top:solid 1px #aaa;
+    display:block;
+    height:17px;
+    background:url(image/barre_orange.gif) repeat-x;
+    padding-top:3px;
+    border-bottom:solid 1px #aaa;
+    margin-top:0px;
+    color:#fff;
+    text-align:center;
+    margin-bottom:5px;
+}
+
+.panier-vide{
+    text-align:center;
+    margin-top:10px;
+}
+
+#contenu-presentation {
+    text-align:center;
+    padding:5px 0;
+    margin-bottom:10px;
+}
+
+#contenu-detail h2{
+    margin-bottom:5px;
+    font-weight:bold;
+}
+
+#contenu-detail a{
+    text-decoration:none;
+    color:#DA6B1D;
+}
+
+#contenu-detail a:hover{
+    color:#777;
+}
+
+#contenu-detail .sfa-libelle {
+    margin:2px;
+    float:left;
+    background:url(/images/interne/famille/famille.jpg);
+    width:140px;
+    height:144px;
+    text-align:center;
+    display:block;
+}
+
+#contenu-detail .sfa-libelle:hover {
+    float:left;
+    text-align:center;
+    display:block;
+    background:url(/images/interne/famille/famille_hover.jpg);
+
+}
+
+#contenu-detail .sfa-libelle p{
+    margin-bottom:10px;
+    color:#fff;
+    text-align:center;
+    font-weight:bold;
+    padding:4px 0;
+}
+
+#contenu-detail .sfa-libelle p:hover{
+    text-align:center;
+}
+
+.sfa-libelle img{
+	width:95px;
+	height:95px;
+}
+
+/*-----Articles-----*/
+
+#table-article-apercu{
+    width:580px;
+}
+
+#table-article-apercu thead td{
+    padding:0 10px;
+    background-color:#ddd;
+    text-align:center;
+    text-transform:uppercase;
+}
+
+#table-article-apercu{
+    background-color:#aaa;
+}
+
+#table-article-apercu tbody{
+    background-color:#fff;
+}
+
+#table-article-apercu .artimg-libelle{
+    height:100px;
+    width:100px;
+    text-align:center;
+    vertical-align:middle;
+}
+
+#table-article-apercu td.artimg-libelle img{
+    margin:5px;
+}
+
+.arttar-prix-ttc{
+    text-align:right;
+    padding-right:10px;
+}
+
+.arttar-prix-ttc a strong {
+    font-size:12px;
+}
+
+
+#table-article-apercu .art-code{
+    text-align:center;
+}
+
+#table-article-apercu .arttr-libelle{
+    padding:0 15px;
+}
+
+#table-article-apercu .art-lien-fo-code{
+    padding-left:15px;
+}
+
+img.article-image {
+    padding-right:10px;
+    margin-right:6px;
+    float:left;
+    border-right:solid 2px #000;
+    width:300px;
+    height:300px;
+}
+
+#contenu-detail ul {
+    margin:10px 0;
+}
+
+tr.even {
+    background-color:#eee;
+}
+
+#img-fiche-article{
+    float:left;
+
+}
+
+#text-fiche-article{
+    float:left;
+    width:225px;
+}
+
+#text-fiche-article li {
+    list-style-type:none;
+}
+
+.article-desc{
+    color:#DA6B1D;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.article-detail{
+    color:#0508A7;
+    font-weight:bold;
+}
+
+#table-article-prix {
+    background:#777;
+    margin:8px 0;
+}
+
+#table-article-prix thead td {
+    padding:3px;
+    background-color:#da6b1d;
+    color:#fff;
+    font-weight:bold;
+}
+
+#table-article-prix tbody td {
+    text-align:right;
+    background:#fff;
+    padding:2px 4px 2px 2px;
+}
+
+#table-article-prix .article-prix {
+   width:132px;
+}
+
+.article-qte{
+    text-align:right;
+}
+
+.calage-voir-panier{
+    margin-left:15px;
+}
+
+/*-----Mise en page texte-----*/
+
+h2{
+    font-weight:bold;
+}
+
+.entete{
+    padding:10px 0;
+    font-weight:bold;
+}
+
+.sous-titre{
+    font-weight:bold;
+}
+
+.article{
+    padding:20px 0 10px 0;
+}
+
+#text-left{
+    float:left;
+    margin-top:10px;
+}
+
+#text-right{
+    float:left;
+    width:360px;
+    margin:0 0 10px 40px;
+}
+
+#text-bottom{
+    clear:both;
+    padding-top:20px;
+}
+
+/*----Common Boutons----*/
+
+.bouton-login, .bouton-deconnection, .bouton-recherche, .bouton-avancee-recherche{
+    background:#DA6B1D;
+    color:#fff;
+    margin-top:5px;
+}
+
+.bouton-login:hover, .bouton-deconnection:hover, .bouton-recherche:hover, .bouton-avancee-recherche:hover{
+    background:#F3A267;
+    color:#fff;
+}
+
+.bouton-navigation, .bouton-confirmation, .bouton-imprimer {
+    margin:10px 0;
+    vertical-align:bottom;
+    background:#DA6B1D;
+    color:#fff;
+}
+
+.bouton-navigation:hover, .bouton-confirmation:hover, .bouton-imprimer:hover {
+    background:#F3A267;
+    color:#fff;
+}
+
+.bouton-confirmation,.bouton-confirmation-disable ,.bouton-imprimer{
+    margin:auto;
+    margin-left:180px;
+}
+
+.bouton-confirmation-disable {
+    color:#ffffff;
+}
+
+.bouton-continuer, .bouton-imprimer{
+    margin:auto;
+    margin-left:230px;
+}
+
+.bouton-navigation-back {
+    vertical-align:bottom;
+    background:#DA6B1D;
+    color:#fff;
+    margin-left:10px;
+}
+
+.bouton-navigation-back:hover {
+    background:#E58669;
+    color:#fff;
+}
+
+/*-----Zoom-----*/
+
+#bulle {
+  position: absolute;
+  visibility: hidden;
+  background:#fff;
+  }
+
+#bulle img{
+    width:600px;
+    height:600px;
+}
+
+.cadre-zoom{
+    border:1px solid #666666;
+    padding: 7px;
+    color:#666666;
+    background:#ffffff;
+ }
+
+ /*-----Page erreur-----*/
+
+ #erreur{
+	text-align:center;
+	margin-top:20px;
+}
+
+
+/*-------------------------*/
+
+/*-------Catalogues-------*/
+
+.catalogue{
+    width:580px;
+    border-top:0;
+}
+
+.catalogue-image{
+    float:left;
+    width:100px;
+    padding-left:5px;
+}
+
+.catalogue-texte{
+    float:left;
+    width:430px;
+    padding:0 5px 10px 10px;
+}
+
+.reader{
+    clear:both;
+    width:500px;
+    margin:0 0 30px 24px;
+    padding-top:10px;
+    border-top:#808080 solid 1px;
+}
+
+.reader p{
+    text-align:center;
+    font-weight:bold;
+    padding-top:5px;
+}
+
+.catalogue h3 {
+    border-top:solid 1px #aaa;
+    display:block;
+    height:17px;
+    background:url(image/barre_orange.gif) repeat-x;
+    padding-top:3px;
+    border-bottom:solid 1px #aaa;
+    color:#fff;
+    text-align:center;
+    margin-bottom:15px;
+    font-weight:bold;
+}
+
+.poids-pdf{
+    color:#AB1A15;
+    font-weight:bold;
+}
+
+/*-------------------------*/
+/*--------Sélections-------*/
+/*-------------------------*/
+
+#contenu-presentation {
+    text-align:center;
+    padding:5px 0;
+    margin-bottom:5px;
+}
+
+#selections{
+    margin-top:10px;
+}
+
+#selections h2{
+    margin-bottom:15px;
+    font-weight:bold;
+}
+
+#selections a{
+    text-decoration:none;
+    color:#DA6B1D;
+}
+
+#selections a:hover{
+    color:#777;
+}
+
+#selections .selections-libelle {
+    margin:3px;
+	margin-left:13px;
+    float:left;
+    background:url(/images/interne/selections/selections.jpg);
+    width:174px;
+    height:164px;
+    text-align:center;
+    display:block;
+}
+
+#selections .selections-libelle:hover{
+    float:left;
+    text-align:center;
+    display:block;
+    background:url(/images/interne/selections/selections_hover.jpg);
+}
+
+#selections .selections-libelle2 {
+    margin:4px;
+    float:left;
+    background:url(/images/interne/selections/selections2.jpg);
+    width:128px;
+    height:144px;
+    text-align:center;
+    display:block;
+}
+
+#selections .selections-libelle2:hover{
+    float:left;
+    text-align:center;
+    display:block;
+    background:url(/images/interne/selections/selections2_hover.jpg);
+}
+
+#selections .selections-libelle p{
+    color:#fff;
+    text-align:center;
+    font-weight:bold;
+    padding:4px 0;
+    margin:6px 0 14px 0;
+    text-transform:uppercase;
+}
+
+#selections .selections-libelle p:hover{
+    text-align:center;
+}
+
+#selections .selections-libelle2 p{
+    margin-bottom:10px;
+    color:#fff;
+    text-align:center;
+    font-weight:bold;
+    padding:4px 0;
+    text-transform:uppercase;
+}
+
+#selections .selections-libelle2 p:hover{
+    text-align:center;
+}
+
+/*-------------------------*/
+
+/*------------------------------------------*/
+/*---------------Espace perso---------------*/
+/*------------------------------------------*/
+
+/*-----Content----*/
+
+#contenu-compte h2 {
+    border-top:solid 1px #aaa;
+    display:block;
+    height:17px;
+    background:url(/images/barre_verte.gif) repeat-x;
+    padding-top:3px;
+    border-bottom:solid 1px #aaa;
+    color:#fff;
+    text-align:center;
+    margin:0 0 20px 0;
+}
+
+#contenu-compte img{
+    text-align:center;
+    margin:10px 0;
+}
+
+.finish-commande{
+    margin-left:90px;
+}
+
+#service-clients{
+    border:#808080 solid 2px;
+    border-top:0;
+    margin-top:10px;
+    text-align:center;
+}
+
+#contenu-compte p{
+    margin:5px 0 0 5px;
+}
+
+#contenu-compte fieldset{
+    border:#1C8044 solid 2px;
+    padding:10px 0;
+    text-align:center;
+}
+
+#contenu-compte h4, #contenu-compte h5, #contenu-compte h6 {
+    border-top:solid 1px #aaa;
+    display:block;
+    height:17px;
+    background:url(/images/barre_verte.gif) repeat-x;
+    padding:3px 0 0 5px;
+    border-bottom:solid 1px #aaa;
+    color:#fff;
+    text-align:left;
+    margin-bottom:2px;
+}
+
+#profil{
+    float:left;
+    width:265px;
+    border:#808080 solid 2px;
+    border-top:0;
+    margin:0 5px 20px 0;
+    padding-bottom:5px;
+}
+
+#password{
+    float:left;
+    width:265px;
+    border:#808080 solid 2px;
+    border-top:0;
+    margin-bottom:20px;
+    padding-bottom:5px;
+}
+
+.spacer-compte{
+    clear:both;
+}
+
+#adresses{
+    float:left;
+    width:265px;
+    padding-bottom:5px;
+    border:#808080 solid 2px;
+    border-top:0
+}
+
+.contenu-modify{
+    height:80px;
+}
+
+/*-----Listing des adresses-----*/
+
+.adresse-box{
+    text-align:center;
+    margin-top:20px;
+    border:#808080 solid 1px;
+    border-top:0;
+}
+
+.num-adresse{
+    height:20px;
+    background:url(/images/barre_verte.gif) repeat-x;
+    color:#fff;
+    text-align:center;
+    font-weight:bold;
+}
+
+.infos-adresse ul{
+    margin:20px 0 10px 50px;
+}
+
+.infos-adresse li{
+    margin-top:5px;
+    list-style-image:url(image/puce_orange.gif);
+}
+
+div.adresse-box .btn-modifier{
+    text-align:center;
+    margin:5px 0;
+}
+
+/*-----Boutons-----*/
+
+.btn-modifier{
+    margin-top:20px;
+}
+
+#profil input,#password input, #adresses input {
+    margin-left:97px;
+}
+
+.bouton-compte{
+    background:#1C8044;
+    color:#fff;
+    margin-right:10px;
+}
+
+.bouton-compte:hover{
+    background:#2CCB6C;
+    color:#fff;
+}
+
+.bouton-compte-valider{
+    background:#1C8044;
+    color:#fff;
+    margin-right:10px;
+    width:150px;
+    text-align:center;
+}
+
+.bouton-compte-valider:hover{
+    background:#2CCB6C;
+    color:#fff;
+}
+
+/*------------------------------------------*/
+
+/*-------Détail commande-------*/
+
+#table-commande-detail {
+    background-color:#777;
+    padding:-1px;
+    margin:20px 0 10px 0;
+    width:100%;
+}
+
+#table-commande-detail thead th{
+    padding:3px;
+    background-color:#da6b1d;
+    color:#fff;
+    font-weight:bold;
+	
+}
+#table-commande-detail thead td{
+    padding:3px;
+    background-color:#da6b1d;
+    color:#fff;
+    font-weight:bold;
+}
+
+#table-commande-detail tbody td {
+    text-align:right;
+    padding:3px 4px 3px 3px;
+    background-color:#fff;
+}
+
+#commande-nb-ligne, #commande-total, .lien-commande-detail{
+    display:block;
+    width:100px;
+    margin-left:80px;
+    text-align:center;
+}
+
+#commande-detail a{
+    color:#777;
+}
+
+#commande-detail a:hover{
+    text-decoration:underline;
+}
+
+#commande-detail a:hover{
+    color:#DA6B1D;
+}
+
+#commande-entete {
+    background-color:#000;
+    padding:-1px;
+    margin-bottom:10px;
+}
+
+#commande-entete thead td {
+    padding:3px;
+    background-color:#da6b1d;
+    color:#fff;
+}
+
+#commande-entete tbody td {
+    text-align:right;
+    padding:3px 4px 3px 3px;
+    background-color:#fff;
+}
+
+#adresse-facturation, #adresse-livraison, #info-livraison, #info-facturation, #info-paiement, #adresses-resume {
+    background-color:#777;
+    margin:10px 0;
+    width:580px;
+}
+
+#adresse-facturation thead td, #adresse-livraison thead td, #adresses-resume thead td{
+    padding:0 5px;
+    background-color:#da6b1d;
+    color:#fff;
+    font-weight:bold;
+    text-align:center;
+}
+
+#adresses-resume td.commande-choix-adresse {
+    text-align:center;
+}
+
+#adresses-resume input.bouton-choix-adresse {
+    width:320px;
+    background:#da6b1d;
+}
+
+#adresse-facturation thead td img, #adresse-livraison thead td img{
+    padding:5px 0;
+    text-align:center;
+}
+
+#info-livraison caption, #info-facturation caption, #info-paiement caption{
+    padding:3px;
+    background-color:#da6b1d;
+    color:#fff;
+    font-weight:bold;
+    text-align:left;
+    border:#777 solid 2px;
+}
+
+#adresse-facturation tbody td, #adresse-livraison tbody td, #info-livraison tbody td, #info-facturation tbody td, #info-paiement tbody td, #adresses-resume tbody td {
+    text-align:left;
+    padding:3px 4px 3px 3px;
+    background-color:#fff;
+}
+
+
+#mode-expedition, #mode-paiement, #conditions-utilisation, #paiement-cheque, #paiement-cb, #texte-resume{
+    background:#E5E6E4;
+    border:#000 solid 1px;
+    margin:5px 0;
+    padding:5px;
+}
+
+#paiement-cb{
+	text-align:center;
+}
+
+#paiement-cheque p, #paiement-cb p, #texte-resume p{
+    font-weight:bold;
+    text-align:center;
+}
+
+#mode-expedition{
+    height:45px;
+}
+
+#transporteur{
+    margin-left:280px;
+}
+
+#mode-paiement{
+    height:25px;
+}
+
+#cheque, #cb, #texte-expedition, #choix-expedition, #texte-conditions, #validation-conditions{
+    float:left;
+    margin-top:5px;
+}
+
+#cb{
+    margin-left:307px;
+}
+
+#conditions-utilisation{
+    clear:both;
+    height:50px;
+}
+
+#texte-conditions{
+    padding-top:5px;
+}
+
+.titre-conditions, .titre-expedition{
+    color:#525252;
+    text-align:center;
+}
+
+.resume-bg{
+    color:#DA6B1D;
+}
+
+.bouton-modifier-article{
+    background:#808080;
+    color:#fff;
+}
+
+.bouton-supprimer-article{
+    background:#808080;
+    color:#fff;
+}
+.bouton-modifier-article:hover, .bouton-supprimer-article:hover{
+    background:#B5B5B5;
+    color:#fff;
+}
+
+#commande-valid{
+    float:left;
+    text-align:left;
+    width:270px;
+}
+
+#commande-valid input{
+    margin-top:11px;
+}
+
+#commamnde-retour{
+    float:left;
+    text-align:right;
+    width:270px;
+}
+
+/*-------------------------------------------*/
+/*-------Identification & formulaires--------*/
+/*-------------------------------------------*/
+
+/*-----Content form-----*/
+
+.texte-identification{
+    padding:10px 0;
+	text-align:center;
+}
+
+.form-error-message {
+    text-align:center;
+}
+
+fieldset{
+    border:#DA6B1D solid 2px;
+    padding:10px 0;
+    text-align:center;
+}
+
+/*-----Login-----*/
+
+.content-login{
+    margin:auto;
+    text-align:center;
+}
+
+.user-login{
+    margin:auto;
+}
+
+#login-form, #logoff-form{
+    margin:auto;
+    text-align:center;
+    margin-top:20px;
+}
+
+#login-form p, #logoff-form p{
+    margin-bottom:10px;
+    padding-top:3px;
+    text-align:center;
+}
+
+.login{
+    margin:0 20px 0 10px;
+}
+
+/*-----Obligations et erreurs-----*/
+
+.info-obligatoire{
+    color:#B02E1A;
+    margin-top:10px;
+    font-style:italic;
+    text-align:center;
+}
+
+.erreur{
+    background:#F9BAB7;
+}
+
+.login-message{
+    color:#33902E;
+    margin-top:10px;
+    font-style:italic;
+    text-align:center;
+}
+
+.confirm-message{
+    color:#1C8044;
+}
+
+/*------------------------------------------*/
+/*-------Formulaires de modifications-------*/
+
+#compte-create-form fieldset{
+    padding-left:15px;
+}
+
+#contact-form fieldset{
+    padding:0 15px;
+}
+
+#contact-form .envoie-mail .bouton-navigation{
+    margin-left:232px;
+}
+
+.user-change-pwd, .user-change, .adresse-create, .adresse-change{
+    margin:0 0 20px 100px;
+}
+
+/*--------Commande & Réglement-------*/
+
+#mode-reglement{
+    float:left;
+    font-weight:bold;
+}
+
+#table-mode-reglement{
+    background-color:#000;
+    padding:-1px;
+}
+
+#table-mode-reglement thead td {
+    padding:3px;
+    background-color:#da6b1d;
+    color:#fff;
+}
+
+#table-mode-reglement tbody td {
+    text-align:right;
+    background-color:#fff;
+    padding:3px 4px 3px 3px;
+}
+
+#mode-reglement input{
+    background:#808080;
+    color:#fff;
+}
+
+#mode-reglement input:hover{
+    background:#B5B5B5;
+    color:#fff;
+}
+
+.spacer-reglement {
+    clear:both;
+    width:550px;
+    height:7px;
+    background:url(/images/site/m32_2.gif) no-repeat;
+    background-position:center;
+    padding-top:20px;
+}
+
+.content {
+    float:left;
+    text-align:center;
+    margin-left:20px;
+    padding-top:5px;
+    width:550px;
+}
+
+.content .content-main h1{
+    text-align:center;
+    border-top:solid 1px #aaa;
+    display:block;
+    height:17px;
+    background:url(image/barre_orange.gif) repeat-x;
+    padding-top:3px;
+    border-bottom:solid 1px #aaa;
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#fff;
+    text-align:center;
+    margin:0 0 15px 0;
+}
+
+.adresse-commande {
+    margin:5px;
+    font-weight:bold;
+}
+
+.adresse-commande ul {
+    font-weight:bold;
+}
+
+.adresse-client {
+    font-weight:bold;
+    margin:5px;
+}
+
+.adresse-client ul {
+    margin-top:5px;
+}
+
+/*--------Footer-------*/
+
+.spacer {
+    clear:both;
+    width:750px;
+    height:7px;
+    background:url(/images/footer.gif) no-repeat;
+    background-position:center;
+    padding-top:20px;
+}
+
+.spacer-middle {
+    clear:both;
+    width:580px;
+    height:3px;
+    background:url(/images/footer.gif) no-repeat;
+    background-position:center;
+    padding-top:10px;
+}
+
+#site-info{
+    width:750px;
+    height:30px;
+    padding:5px 0;
+    color:#777;
+    font-weight:bold;
+}
+
+#site-info a:link, #site-info a:visited, #site-info a:active{
+    color:#727272;
+    text-decoration:none;
+}
+
+#site-info a:hover{
+    color:#DA6B1D;
+    text-decoration:underline;
+}
+
+#images-site-info{
+    width:275px;
+    float:left;
+    text-align:right;
+}
+
+#site-info img{
+    margin-right:10px;
+}
+
+#liens-site-info{
+    width:475px;
+    float:left;
+    margin-top:7px;
+}
+
+/*-----table historique commande-----*/
+
+
+#table_commandes {
+    background-color:#777;
+    padding:-1px;
+    margin:20px 0 10px 0;
+    width:300px;
+	
+}
+.flt{width:138px; background-color:#EEE;}
+#table_commandes thead th{
+    padding:3px;
+    color:#fff;
+    font-weight:bold;
+	text-align:center;
+background:none repeat scroll 0 0 #1C8044;
+	
+}
+#table_commandes thead td{
+    padding:3px;
+    background-color:#fff;
+    color:#fff;
+    font-weight:bold;text-align:left;
+}
+.mdiv{padding-left:190px;}
+#table_commandes tbody td {
+    text-align:right;
+    padding:3px 4px 3px 3px;
+    background-color:#fff;
+	text-align:center;
+}
+
+
+.titre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: bolder;
+	color: #434365;
+	list-style-image: url(image/puce.gif);
+
+}

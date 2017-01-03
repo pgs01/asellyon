@@ -1,0 +1,1 @@
+<%="ip serveur=" & Request.ServerVariables("local_addr")%>
